@@ -1,0 +1,7 @@
+/config
+/scripts
+/node_modules
+/src/api
+*.test.js
+/src/store/
+/src/serviceWorker.js

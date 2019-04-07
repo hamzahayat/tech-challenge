@@ -1,0 +1,47 @@
+@import '../../css/utils.scss';
+
+.albums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 280px;
+      height: 180px;
+
+      margin: 25px;
+
+      .label {
+        font-size: 12px;
+        font-family: $lato-font-family;
+        font-weight: $font-weight-semi-bold;
+        color: $midnight-blue;
+      }
+
+      .value {
+        font-size: 15px;
+        font-family: $lato-font-family;
+        font-weight: $font-weight-regular;
+        color: $blue;
+      }
+    }
+
+    .button {
+      background-color: $sandstorm;
+      color: $midnight-blue;
+    }
+  }
+}

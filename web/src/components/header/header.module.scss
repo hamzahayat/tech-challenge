@@ -1,0 +1,21 @@
+@import '../../css/utils.scss';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: $blue;
+
+  height: 64px;
+  width: 100%;
+
+  padding: 0 150px 0 150px;
+
+  .logo-text {
+    font-family: $lato-font-family;
+    font-size: 30px;
+    font-weight: 900;
+    color: $white;
+  }
+}
